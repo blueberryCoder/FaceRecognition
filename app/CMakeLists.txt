@@ -1,0 +1,18 @@
+
+cmake_minimum_required(VERSION 3.4.1)
+
+set(opencv_root_dir ${CMAKE_SOURCE_DIR}/opencv)
+set(INC_DIR ${opencv_root_dir}/include)
+set(opencv_lib_dir ${opencv_root_dir}/prebuilt)
+set(SOURCE_FILES    src/main/cpp/lang.h
+                    src/main/cpp/face_detect.h
+                   src/main/cpp/face_detect.cpp)
+#添加头文件目录
+include_directories(${INC_DIR})
+add_library(face_detect SHARED ${SOURCE_FILES})
+#添加外部动态链接库
+add_library(lib_opencv SHARED IMPORTED)
+set_target_properties(lib_opencv PROPERTIES IMPORTED_LOCATION
+    ${opencv_lib_dir}/${ANDROID_ABI}/libopencv_java3.so)
+
+target_link_libraries(face_detect lib_opencv log )
