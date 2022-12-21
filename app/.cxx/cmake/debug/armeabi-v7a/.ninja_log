@@ -1,0 +1,4 @@
+# ninja log v5
+0	1297	0	CMakeFiles/face_detect.dir/src/main/cpp/face_detect.cpp.o	e2c38b955309f72f
+1	1208	0	CMakeFiles/face_detect.dir/src/main/cpp/face_detect.cpp.o	e2c38b955309f72f
+1208	1280	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libface_detect.so	8904f792ad49c62

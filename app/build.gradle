@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    compileSdkVersion 32
+//    buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "com.blueberry.facerec"
-        minSdkVersion 11
-        targetSdkVersion 24
+        minSdkVersion 21
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -14,14 +14,14 @@ android {
             cmake {
                 cppFlags "-frtti -fexceptions"
                 //需编译生成的ABI类型
-//                abiFilters 'armeabi-v7a'
+                abiFilters 'armeabi-v7a'
                 arguments "-DANDROID_TOOLCHAIN=clang"
             }
         }
-        ndk {
-            //打包进APK的ABI类型
-            abiFilters   'x86'
-        }
+//        ndk {
+//            //打包进APK的ABI类型
+//            abiFilters   'x86'
+//        }
     }
     buildTypes {
         release {
@@ -48,13 +48,14 @@ android {
 
     }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:24.2.1'
-    testCompile 'junit:junit:4.12'
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+
 }

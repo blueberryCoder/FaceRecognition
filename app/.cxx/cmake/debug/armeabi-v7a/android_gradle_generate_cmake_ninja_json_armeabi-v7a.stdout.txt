@@ -1,0 +1,4 @@
+-- armeabi-v7a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/bytedance/code/opensource/FaceRecognition/app/.cxx/cmake/debug/armeabi-v7a

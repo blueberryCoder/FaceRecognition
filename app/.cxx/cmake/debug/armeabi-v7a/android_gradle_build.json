@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "/Users/bytedance/code/opensource/FaceRecognition/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/bytedance/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/bytedance/code/opensource/FaceRecognition/app/.cxx/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"face_detect-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "face_detect",
+			"buildCommand" : "/Users/bytedance/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/bytedance/code/opensource/FaceRecognition/app/.cxx/cmake/debug/armeabi-v7a --target face_detect",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/Users/bytedance/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/bytedance/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dface_detect_EXPORTS -I../../../../opencv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/bytedance/code/opensource/FaceRecognition/app/src/main/cpp/face_detect.cpp",
+					"workingDirectory" : "/Users/bytedance/code/opensource/FaceRecognition/app/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/bytedance/code/opensource/FaceRecognition/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libface_detect.so",
+			"toolchain" : "14495358682259735693"
+		},
+		"opencv-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv",
+			"buildType" : "debug",
+			"output" : "/Users/bytedance/code/opensource/FaceRecognition/app/opencv/prebuilt/armeabi-v7a/libopencv_java3.so",
+			"toolchain" : "14495358682259735693"
+		}
+	},
+	"toolchains" : 
+	{
+		"14495358682259735693" : 
+		{
+			"cCompilerExecutable" : "/Users/bytedance/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/bytedance/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

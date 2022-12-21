@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/Users/bytedance/code/opensource/FaceRecognition/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/bytedance/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/bytedance/code/opensource/FaceRecognition/app/.cxx/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "opencv-Debug-armeabi-v7a": {
+      "artifactName": "opencv",
+      "abi": "armeabi-v7a",
+      "output": "/Users/bytedance/code/opensource/FaceRecognition/app/opencv/prebuilt/armeabi-v7a/libopencv_java3.so"
+    },
+    "face_detect-Debug-armeabi-v7a": {
+      "artifactName": "face_detect",
+      "buildCommand": "/Users/bytedance/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/bytedance/code/opensource/FaceRecognition/app/.cxx/cmake/debug/armeabi-v7a --target face_detect",
+      "abi": "armeabi-v7a",
+      "output": "/Users/bytedance/code/opensource/FaceRecognition/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libface_detect.so"
+    }
+  }
+}

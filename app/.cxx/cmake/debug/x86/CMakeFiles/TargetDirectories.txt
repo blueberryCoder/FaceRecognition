@@ -1,0 +1,3 @@
+/Users/bytedance/code/opensource/FaceRecognition/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/bytedance/code/opensource/FaceRecognition/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/bytedance/code/opensource/FaceRecognition/app/.cxx/cmake/debug/x86/CMakeFiles/face_detect.dir

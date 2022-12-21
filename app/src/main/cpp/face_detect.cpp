@@ -36,7 +36,7 @@ Java_com_blueberry_facerec_FaceDetector_detect(JNIEnv *env, jobject instance, js
     //直方图均值化
     equalizeHist(srcImage, srcImage);
     vector<Rect> vectors;
-    g_CascadeClassifier->detectMultiScale(srcImage, vectors);
+//    g_CascadeClassifier->detectMultiScale(srcImage, vectors);
     LOGD("detected.");
     jclass objectClass = env->FindClass("com/blueberry/facerec/Face");
     // 返回的人脸数组
