@@ -40,11 +40,11 @@
 //
 //M*/
 
-#ifndef __OPENCV_CUDA_TYPE_TRAITS_DETAIL_HPP__
-#define __OPENCV_CUDA_TYPE_TRAITS_DETAIL_HPP__
+#ifndef OPENCV_CUDA_TYPE_TRAITS_DETAIL_HPP
+#define OPENCV_CUDA_TYPE_TRAITS_DETAIL_HPP
 
-#include "opencv2/core/cuda/common.hpp"
-#include "opencv2/core/cuda/vec_traits.hpp"
+#include "../common.hpp"
+#include "../vec_traits.hpp"
 
 //! @cond IGNORED
 
@@ -188,4 +188,4 @@ namespace cv { namespace cuda { namespace device
 
 //! @endcond
 
-#endif // __OPENCV_CUDA_TYPE_TRAITS_DETAIL_HPP__
+#endif // OPENCV_CUDA_TYPE_TRAITS_DETAIL_HPP

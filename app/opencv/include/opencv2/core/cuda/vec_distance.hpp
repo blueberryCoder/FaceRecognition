@@ -40,12 +40,12 @@
 //
 //M*/
 
-#ifndef __OPENCV_CUDA_VEC_DISTANCE_HPP__
-#define __OPENCV_CUDA_VEC_DISTANCE_HPP__
+#ifndef OPENCV_CUDA_VEC_DISTANCE_HPP
+#define OPENCV_CUDA_VEC_DISTANCE_HPP
 
 #include "reduce.hpp"
 #include "functional.hpp"
-#include "opencv2/core/cuda/detail/vec_distance_detail.hpp"
+#include "detail/vec_distance_detail.hpp"
 
 /** @file
  * @deprecated Use @ref cudev instead.
@@ -229,4 +229,4 @@ namespace cv { namespace cuda { namespace device
 
 //! @endcond
 
-#endif // __OPENCV_CUDA_VEC_DISTANCE_HPP__
+#endif // OPENCV_CUDA_VEC_DISTANCE_HPP

@@ -40,12 +40,12 @@
 //
 //M*/
 
-#ifndef __OPENCV_CUDA_TRANSFORM_HPP__
-#define __OPENCV_CUDA_TRANSFORM_HPP__
+#ifndef OPENCV_CUDA_TRANSFORM_HPP
+#define OPENCV_CUDA_TRANSFORM_HPP
 
 #include "common.hpp"
 #include "utility.hpp"
-#include "opencv2/core/cuda/detail/transform_detail.hpp"
+#include "detail/transform_detail.hpp"
 
 /** @file
  * @deprecated Use @ref cudev instead.
@@ -72,4 +72,4 @@ namespace cv { namespace cuda { namespace device
 
 //! @endcond
 
-#endif // __OPENCV_CUDA_TRANSFORM_HPP__
+#endif // OPENCV_CUDA_TRANSFORM_HPP
