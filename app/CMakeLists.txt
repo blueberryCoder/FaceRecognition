@@ -15,9 +15,8 @@ add_library(face_detect SHARED ${SOURCE_FILES})
 add_library(opencv SHARED IMPORTED)
 
 set_target_properties(opencv PROPERTIES IMPORTED_LOCATION
-#    ${opencv_lib_dir}/${ANDROID_ABI}/libopencv_java3.so
-        "/Users/bytedance/code/opensource/FaceRecognition/app/opencv/prebuilt/armeabi-v7a/libopencv_java3.so"
+    ${opencv_lib_dir}/${ANDROID_ABI}/libopencv_java4.so
         )
 
 target_link_libraries(face_detect  log )
-target_link_libraries(face_detect  opencv)
+target_link_libraries(face_detect  opencv )

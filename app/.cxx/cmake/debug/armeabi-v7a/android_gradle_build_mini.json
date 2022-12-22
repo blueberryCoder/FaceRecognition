@@ -9,7 +9,7 @@
     "opencv-Debug-armeabi-v7a": {
       "artifactName": "opencv",
       "abi": "armeabi-v7a",
-      "output": "/Users/bytedance/code/opensource/FaceRecognition/app/opencv/prebuilt/armeabi-v7a/libopencv_java3.so"
+      "output": "/Users/bytedance/code/opensource/FaceRecognition/app/opencv/prebuilt/armeabi-v7a/libopencv_java4.so"
     },
     "face_detect-Debug-armeabi-v7a": {
       "artifactName": "face_detect",

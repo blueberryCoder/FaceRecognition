@@ -24,7 +24,7 @@ ANDROID_NDK:UNINITIALIZED=/Users/bytedance/Library/Android/sdk/ndk/22.1.7171670
 ANDROID_PLATFORM:UNINITIALIZED=android-21
 
 //No help, variable specified on the command line.
-ANDROID_TOOLCHAIN:UNINITIALIZED=clang
+ANDROID_STL:UNINITIALIZED=c++_shared
 
 //Archiver
 CMAKE_AR:FILEPATH=/Users/bytedance/Library/Android/sdk/ndk/22.1.7171670/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar

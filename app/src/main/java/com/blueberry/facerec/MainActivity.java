@@ -37,6 +37,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        picPath = this.getExternalCacheDir().getAbsolutePath() + File.pathSeparator + "test.jpg";
         setContentView(R.layout.activity_main);
         xmlPath = getCacheDir().getPath();
         new Thread(new WriteXmlRunnable()).start();
